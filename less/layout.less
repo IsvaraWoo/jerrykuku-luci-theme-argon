@@ -28,6 +28,7 @@
     overflow-x: auto;
     word-break: break-word;
     background-color: var(--menu-bg-color);
+    opacity: var(--blur-opacity);
     box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 15px -5px;
     transition: all 0.2s;
 
@@ -389,6 +390,8 @@
 
 .main-right {
     height: 100%;
+    z-index: 5;
+    opacity: var(--blur-opacity);
     flex-grow: 1;
     overflow-x: hidden;
     overflow-y: auto;
